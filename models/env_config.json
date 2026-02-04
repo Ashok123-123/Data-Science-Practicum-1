@@ -1,0 +1,37 @@
+{
+  "initial_balance": 10000.0,
+  "transaction_cost": 0.001,
+  "state_dim": 11,
+  "feature_columns": [
+    "RSI_norm",
+    "MACD_norm",
+    "ATR_norm",
+    "OBV_norm",
+    "BB_Width_norm",
+    "Dist_SMA20_norm",
+    "Dist_SMA50_norm",
+    "Volume_norm"
+  ],
+  "action_meanings": {
+    "0": "hold",
+    "1": "buy",
+    "2": "sell"
+  },
+  "tickers": [
+    "SPY",
+    "AAPL",
+    "MSFT",
+    "JPM",
+    "XOM",
+    "JNJ"
+  ],
+  "baselines": {
+    "random_mean": -11.19118713038935,
+    "random_std": 11.750967056529607,
+    "buy_and_hold": {
+      "train": 69.29044942337038,
+      "val": 17.744895804748538,
+      "test": 32.05613514892578
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "momentum": [
+    "RSI_norm",
+    "MACD_norm"
+  ],
+  "trend": [
+    "Dist_SMA20_norm",
+    "Dist_SMA50_norm"
+  ],
+  "volatility": [
+    "ATR_norm",
+    "BB_Width_norm"
+  ],
+  "volume": [
+    "OBV_norm",
+    "Volume_norm"
+  ],
+  "all": [
+    "RSI_norm",
+    "MACD_norm",
+    "ATR_norm",
+    "OBV_norm",
+    "BB_Width_norm",
+    "Dist_SMA20_norm",
+    "Dist_SMA50_norm",
+    "Volume_norm"
+  ]
+}
