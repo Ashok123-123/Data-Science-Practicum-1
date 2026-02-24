@@ -1,0 +1,30 @@
+{
+  "models": [
+    "simple_dqn",
+    "dropout_dqn",
+    "residual_dqn",
+    "dueling_dqn",
+    "lstm_dqn",
+    "attention_dqn"
+  ],
+  "voting_methods": [
+    "hard",
+    "soft"
+  ],
+  "validation_results": {
+    "hard_mean": 10447.105609704606,
+    "hard_std": 588.758088033845,
+    "soft_mean": 9040.874866018688,
+    "soft_std": 380.2415375849117,
+    "best_single": "simple_dqn",
+    "best_single_value": 11277.253277893078
+  },
+  "model_paths": {
+    "simple_dqn": "models/simple_dqn_v2.pt",
+    "dropout_dqn": "models/dropout_dqn_v2.pt",
+    "residual_dqn": "models/residual_dqn_v2.pt",
+    "dueling_dqn": "models/dueling_dqn_v2.pt",
+    "lstm_dqn": "models/lstm_dqn_v2.pt",
+    "attention_dqn": "models/attention_dqn_v2.pt"
+  }
+}

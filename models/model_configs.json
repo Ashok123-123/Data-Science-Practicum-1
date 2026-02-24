@@ -1,0 +1,44 @@
+{
+  "simple_dqn": {
+    "state_dim": 5,
+    "action_dim": 3,
+    "architecture": "simple_dqn",
+    "feature_group": "momentum",
+    "n_features": 2
+  },
+  "dropout_dqn": {
+    "state_dim": 5,
+    "action_dim": 3,
+    "architecture": "dropout_dqn",
+    "feature_group": "volatility",
+    "n_features": 2
+  },
+  "residual_dqn": {
+    "state_dim": 5,
+    "action_dim": 3,
+    "architecture": "residual_dqn",
+    "feature_group": "volume",
+    "n_features": 2
+  },
+  "dueling_dqn": {
+    "state_dim": 5,
+    "action_dim": 3,
+    "architecture": "dueling_dqn",
+    "feature_group": "trend",
+    "n_features": 2
+  },
+  "lstm_dqn": {
+    "state_dim": 11,
+    "action_dim": 3,
+    "architecture": "lstm_dqn",
+    "feature_group": "all",
+    "n_features": 8
+  },
+  "attention_dqn": {
+    "state_dim": 11,
+    "action_dim": 3,
+    "architecture": "attention_dqn",
+    "feature_group": "all",
+    "n_features": 8
+  }
+}
